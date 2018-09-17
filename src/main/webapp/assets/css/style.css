@@ -1,0 +1,28 @@
+body{
+
+    background: url("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3814824968,1249393169&fm=26&gp=0.jpg");
+    animation-name:myfirst;
+    animation-duration:12s;
+    /*变换时间*/
+    animation-delay:4s;
+    /*动画开始时间*/
+    animation-iteration-count:infinite;
+    /*下一周期循环播放*/
+    animation-play-state:running;
+    /*动画开始运行*/
+
+
+  
+}
+@keyframes myfirst
+{
+    0%   {background:url("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3814824968,1249393169&fm=26&gp=0.jpg");}
+    34%  {background:url("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3318022222,1025965184&fm=26&gp=0.jpg");}
+    67%  {background:url("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1055578874,196433184&fm=26&gp=0.jpg");}
+    100% {background:url("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3814824968,1249393169&fm=26&gp=0.jpg");}
+}
+.form{background: rgba(255,255,255,0.2);width:400px;margin:120px auto;}
+/*阴影*/
+.fa{display: inline-block;top: 27px;left: 6px;position: relative;color: #ccc;}
+input[type="text"],input[type="password"]{padding-left:26px;}
+.checkbox{padding-left:21px;}
